@@ -2,13 +2,13 @@
 
 import inquirer from "inquirer";
 import chalk from "chalk";
-const randomNumber = Math.floor(Math.random() * 6 + 1);
+const randomNumber = Math.floor(Math.random() * 4 + 1);
 
 const answers = await inquirer.prompt([
     {
         name: "userGuessedNumber",
         type: "number",
-        message: chalk.bold.blue("Please guess a number in between 1-6")
+        message: chalk.bold.blue("Please guess a number in between 1-4")
     }
 ]);
 
