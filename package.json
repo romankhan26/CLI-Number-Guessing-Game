@@ -1,6 +1,6 @@
 {
   "name": "rk26_cli_numberguessinggame",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "A ClI number guessing game",
   "main": "index.js",
   "type": "module",
